@@ -26,13 +26,17 @@ def is_leap_year(year):
         return False
     else:
         while year %4==0:
-            if year %100==0 and year %400==0
-               return true 
-            elif year %100==0 and year% 400 != 0
+            if year %100==0 and year %400==0:
+               return True 
+            elif year %100==0 and year% 400 != 0:
                return False
-            else 
-            return true 
+            else:
+               return True 
 
     return
 
-print is_leap_year(2000)
+print (is_leap_year(2000))
+print (is_leap_year(1900))
+print (is_leap_year(2004))
+print (is_leap_year(5))
+
